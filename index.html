@@ -12,43 +12,43 @@
   <p class='title'>Piano Player</p>
   <p id='demo'>Follow the song below to play  the piano.</p>
   <section class="piano">
-    <section id='c-key' class="key">
+    <section id='c-key' class="key" onclick="play_c()">
       <section class='keynote'>C</section>
     </section>
-    <section id='c-sharp-key' class="black-key">
+    <section id='c-sharp-key' class="black-key" onclick="play_c_sharp()">
       <section class='black-keynote'>C#</section>
     </section>
-    <section id='d-key' class="key">
+    <section id='d-key' class="key" onclick="play_d()">
       <section class='keynote'>D</section>
     </section>
-    <section id='d-sharp-key' class="black-key">
+    <section id='d-sharp-key' class="black-key" onclick="play_d_sharp()">
       <section class='black-keynote'>D#</section>
     </section>
-    <section id='e-key' class="key">
+    <section id='e-key' class="key" onclick="play_e()">
       <section class='keynote'>E</section>
     </section>
-    <section id='f-key' class="key">
+    <section id='f-key' class="key" onclick="play_f()">
       <section class='keynote'>F</section>
     </section>
-    <section id='f-sharp-key' class="black-key">
+    <section id='f-sharp-key' class="black-key" onclick="play_f_sharp()">
       <section class='black-keynote'>F#</section>
     </section>
-    <section id='g-key' class="key">
+    <section id='g-key' class="key" onclick="play_g()">
       <section class='keynote'>G</section>
     </section>
-    <section id='g-sharp-key' class="black-key">
+    <section id='g-sharp-key' class="black-key" onclick="play_g_sharp()">
       <section class='black-keynote'>G#</section>
     </section>
-    <section id='a-key' class="key">
+    <section id='a-key' class="key" onclick="play_a()">
       <section class='keynote'>A</section>
     </section>
-    <section id='a-sharp-key' class="black-key">
+    <section id='a-sharp-key' class="black-key" onclick="play_a_sharp()">
       <section class='black-keynote'>A#</section>
     </section>
-    <section id='b-key' class="key">
+    <section id='b-key' class="key" onclick="play_b()">
       <section class='keynote'>B</section>
     </section>
-    <section id='high-c-key' class="key">
+    <section id='high-c-key' class="key" onclick="play_c()">
       <div class='keynote'>C</div>
     </section>
   </section>
@@ -88,6 +88,23 @@
     <button id="third-next-line">Line 4</button>
     <button id="fourth-next-line">Reset</button>
   </section>
+
+  <br>
+
+
+  <audio id="c" src="./notes/do-80236.mp3"></audio>
+  <audio id="d" src="./notes/re-78500.mp3"></audio>
+  <audio id="e" src="./notes/mi-80239.mp3"></audio>
+  <audio id="f" src="./notes/fa-78409.mp3"></audio>
+  <audio id="g" src="./notes/sol-101774.mp3"></audio>
+  <audio id="a" src="./notes/la-80237.mp3"></audio>
+  <audio id="b" src="./notes/si-80238.mp3"></audio>
+
+  <audio id="c_sharp" src="./notes/c%236-102822.mp3"></audio>
+  <audio id="d_sharp" src="./notes/d%236-82018.mp3"></audio>
+  <audio id="f_sharp" src="./notes/f%236-102819.mp3"></audio>
+  <audio id="g_sharp" src="./notes/g%236-82014.mp3"></audio>
+  <audio id="a_sharp" src="./notes/a%236-82015.mp3"></audio>
 
   <script  src="./main.js"></script>
 
