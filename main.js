@@ -1,3 +1,5 @@
+
+
 // The keys and notes variables store the piano keys
 const keys = ['c-key', 'd-key', 'e-key', 'f-key', 'g-key', 'a-key', 'b-key', 'high-c-key', 'c-sharp-key', 'd-sharp-key', 'f-sharp-key', 'g-sharp-key', 'a-sharp-key'];
 const notes = [];
@@ -93,4 +95,68 @@ startOver.onclick = function() {
   document.getElementById('letter-note-five').innerHTML = 'C';
   document.getElementById('word-six').innerHTML = 'YOU!';
   document.getElementById('letter-note-six').innerHTML = 'B';
+}
+
+// Piano_notes sounds
+
+//Simple notes
+function play_c() {
+  var audio_c = document.getElementById("c");
+  audio_c.play();
+}
+
+function play_d() {
+  var audio_d = document.getElementById("d");
+  audio_d.play();
+}
+
+function play_e() {
+  var audio_e = document.getElementById("e");
+  audio_e.play();
+}
+
+function play_f() {
+  var audio_f = document.getElementById("f");
+  audio_f.play();
+}
+
+function play_g() {
+  var audio_g = document.getElementById("g");
+  audio_g.play();
+}
+
+function play_a() {
+  var audio_a = document.getElementById("a");
+  audio_a.play();
+}
+
+function play_b() {
+  var audio_b = document.getElementById("b");
+  audio_b.play();
+}
+
+// Sharp notes
+function play_c_sharp() {
+  var audio_c_sharp = document.getElementById("c_sharp");
+  audio_c_sharp.play();
+}
+
+function play_d_sharp() {
+  var audio_d_sharp = document.getElementById("d_sharp");
+  audio_d_sharp.play();
+}
+
+function play_f_sharp() {
+  var audio_f_sharp = document.getElementById("f_sharp");
+  audio_f_sharp.play();
+}
+
+function play_g_sharp() {
+  var audio_g_sharp = document.getElementById("g_sharp");
+  audio_g_sharp.play();
+}
+
+function play_a_sharp() {
+  var audio_a_sharp = document.getElementById("a_sharp");
+  audio_a_sharp.play();
 }
